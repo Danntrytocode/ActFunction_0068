@@ -1,10 +1,8 @@
-//Library
 #include<iostream>
 using namespace std;
-//Deklarasi Global
+
     float p,l;
 
-//implementasi Prosedur & Fungsi
 void Input(){
     cout << "masukkan panjang : " ;
     cin >> p;
@@ -20,7 +18,6 @@ void Output (){
     cout << "hasilnya = " << LuasPersegi();
 }
 
-//program utama
 int main(){
     Input();
     Output();
