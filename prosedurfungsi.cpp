@@ -15,7 +15,7 @@ float Luas_Persegi(){
 }
 
 void Output (){
-    cout << "Hasilnya = " << Luas_Persegi();
+    cout << "Hasilnya = " << Luas_Persegi() << "cm^2" << endl;
 }
 
 int main(){
