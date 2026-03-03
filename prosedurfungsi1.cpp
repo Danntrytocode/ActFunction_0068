@@ -19,7 +19,7 @@ int jumlah(int a, int b, int c){
 }
 
 void Output (){
-    cout << "hasilnya = : " << LuasPersegi(p,l) << endl;
+    cout << "hasilnya = : " << LuasPersegi(p,l) << "cm^2" << endl;
 }
 
 int main(){
