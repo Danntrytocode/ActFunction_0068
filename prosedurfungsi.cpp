@@ -4,18 +4,18 @@ using namespace std;
     float p,l;
 
 void Input(){
-    cout << "masukkan panjang : " ;
+    cout << "Masukkan Panjang : " ;
     cin >> p;
-    cout << "masukkan lebar : " ;
+    cout << "Masukkan Lebar : " ;
     cin >> l;
 }
 
-float LuasPersegi(){
+float Luas_Persegi(){
     return p*l;
 }
 
 void Output (){
-    cout << "hasilnya = " << LuasPersegi();
+    cout << "Hasilnya = " << Luas_Persegi();
 }
 
 int main(){
